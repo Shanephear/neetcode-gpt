@@ -11,4 +11,3 @@ class Solution:
         z = z - np.max(z)
         z = np.exp(z)/np.sum(np.exp(z))
         return np.round(z,4)
-        pass
